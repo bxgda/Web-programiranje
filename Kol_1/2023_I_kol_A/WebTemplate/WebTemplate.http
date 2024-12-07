@@ -1,0 +1,18 @@
+@WebTemplate_HostAddress = http://localhost:5215
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajAutora
+Accept: application/json
+Content-Type: application/json
+
+{
+  "ime": "Branislav",
+  "prezime": "Nusic",
+  "datumRodjenja": "1933-09-05T00:00:00.0000",
+  "pol": "M"
+}
+
+###
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajIzdavaca/Klett/Srbija
+Accept: application/json
+
