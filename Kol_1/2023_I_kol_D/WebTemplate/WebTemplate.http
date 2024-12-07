@@ -1,0 +1,36 @@
+@WebTemplate_HostAddress = http://localhost:5215
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajProizvod
+Accept: application/json
+Content-Type: application/json
+
+{
+  "naziv": "Voda Voda",
+  "identifikator": "1111644444681",
+  "datumProizvodnje": "2024-05-12",
+  "datumIstekaRoka": "2024-06-01"
+}
+
+###
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajProdavnicu
+Accept: application/json
+Content-Type: application/json
+
+{
+  "naziv": "Roda",
+  "adresa": "Ustanicka",
+  "brojTelefona": "066123456",
+  "imeZaduzenogLica": "Milica Petrovic"
+}
+
+###
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajProizvodUProdavnicu/3/3/49.90/321
+Accept: application/json
+Content-Type: application/json
+
+###
+
+GET {{WebTemplate_HostAddress}}/Ispit/ProizvodiKojimaJeIstekaoRok?datum=2025-02-01&idProdavnica=1
+Accept: application/json
