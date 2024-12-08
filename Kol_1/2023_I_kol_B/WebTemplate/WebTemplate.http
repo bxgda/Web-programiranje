@@ -1,0 +1,16 @@
+@WebTemplate_HostAddress = http://localhost:5215
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajStudenta
+Accept: application/json
+Content-Type: application/json
+
+{
+  "brojIndeksa": 7563,
+  "ime": "Sara",
+  "prezime": "Ciric",
+  "godinaRodjenja": 2003,
+  "srednjaSkola": "Gimnazija Pirot",
+  "idFakulteta": 4
+}
+
+###
