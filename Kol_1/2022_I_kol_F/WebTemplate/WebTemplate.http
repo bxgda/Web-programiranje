@@ -1,0 +1,14 @@
+@WebTemplate_HostAddress = http://localhost:5215
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajRestoran
+Accept: application/json
+Content-Type: application/json
+
+{
+  "naziv": "Bianca",
+  "maksBrojGostiju": 200,
+  "maksBrojKuvara": 7,
+  "brojTelefona": "0642545034"
+}
+
+###
