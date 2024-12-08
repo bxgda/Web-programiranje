@@ -1,0 +1,27 @@
+@WebTemplate_HostAddress = http://localhost:5215
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajGrad
+Accept: application/json
+Content-Type: application/json
+
+{
+  "naziv": "Budimpesta",
+  "latitude": 47.497913,
+  "longitude": 19.040236,
+  "brojKoloseka": 90,
+  "brojStanovnika": 1752321
+}
+
+###
+
+POST {{WebTemplate_HostAddress}}/Ispit/DodajVoz
+Accept: application/json
+Content-Type: application/json
+
+{
+  "naziv": "Voz 3",
+  "maksimalniKapacitet": 200,
+  "datumProizvodnje": "2019-03-01",
+  "maksimalnaBrzina": 100,
+  "maksimalnaTezina": 850
+}
