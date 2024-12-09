@@ -1,0 +1,18 @@
+@WebTemplate_HostAddress = https://localhost:7080
+
+POST {{WebTemplate_HostAddress}}/Aerodrom/DodajAerodrom/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "naziv": "Aerodrom1",
+  "kod": "001",
+  "lokacija": "Nis",
+  "kapacitetLetelica": 10,
+  "kapacitetPutnika": 555
+}
+
+###
+
+DELETE {{WebTemplate_HostAddress}}/Aerodrom/IzbrisiAerodrom/1
+Accept: application/json
