@@ -144,7 +144,7 @@ public class IspitController : ControllerBase
     public async Task<IActionResult> UkupanBrojRadnihDana(int idUstanove)
     {
         try
-        {
+        {        /* ovo nije dobro i daje se 0 poena za ovakvu funkciju jer povlacim celu bazu a trebaju mi samo datumi, pise to i na blanketu */
             var ugovori = await Context
                 .Ugovori.Include(z => z.ZaposlenRadnik)
                 .Where(p => p.UstanovaZaposljava!.ID == idUstanove)
