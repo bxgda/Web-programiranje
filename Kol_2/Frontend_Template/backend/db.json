@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 25.99,
+      "description": "A comfortable and responsive wireless mouse with ergonomic design."
+    },
+    {
+      "id": 2,
+      "title": "Yoga Mat",
+      "category": "Fitness",
+      "price": 18.5,
+      "description": "Non-slip yoga mat suitable for all types of exercises and stretches."
+    },
+    {
+      "id": 3,
+      "title": "Coffee Maker",
+      "category": "Home Appliances",
+      "price": 49.99,
+      "description": "Compact drip coffee maker with programmable timer and auto shut-off."
+    },
+    {
+      "id": 4,
+      "title": "Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 59.99,
+      "description": "Over-ear Bluetooth headphones with noise cancellation and long battery life."
+    },
+    {
+      "id": 5,
+      "title": "Stainless Steel Water Bottle",
+      "category": "Outdoors",
+      "price": 15.0,
+      "description": "Durable, insulated water bottle that keeps drinks cold for hours."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "rating": 4.5,
+      "comment": "Great mouse, very comfortable to use for long periods."
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "rating": 4.0,
+      "comment": "Good quality mat, but a bit slippery on hardwood floors."
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "rating": 5.0,
+      "comment": "Makes excellent coffee, very easy to use."
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "rating": 4.8,
+      "comment": "Sound quality is amazing, and they are very comfortable."
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "rating": 4.2,
+      "comment": "Keeps my water cold all day, but the cap could be better."
+    }
+  ]
+}
