@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+.meracContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.zaglavljeContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+
+.barContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  height: 100%;
+}
+
+.crticeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100%;
+}
+
+.crtica {
+  width: 50px;
+  border-top: 1px solid black;
+  text-align: right;
+}
+
+.rightBarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.bar {
+  width: 15px;
+}
