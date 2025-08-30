@@ -1,6 +1,0 @@
-@decembar2023_HostAddress = http://localhost:5086
-
-GET {{decembar2023_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
