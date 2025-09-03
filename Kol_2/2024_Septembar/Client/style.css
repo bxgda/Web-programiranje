@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.leftContainer {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 20px;
+  padding: 5px;
+  border: 1px dashed black;
+}
+
+.racunBox {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.placen {
+  background-color: rgb(75, 207, 75);
+}
+
+.neplacen {
+  background-color: rgba(216, 86, 86, 0.76);
+}
+
+.btnSubmit {
+  grid-column: span 2;
+}
