@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.leviDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 250px;
+  height: fit-content;
+}
+
+.naslovDiv {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.boxOpcije label {
+  width: 100%;
+}
+
+.boxOpcije input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  width: fit-content;
+}
+
+.boxOpcije {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
+}
+
+.ceoInfo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.imeRezDiv {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+.donjiDeoRezDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.tabelaIEditDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tabela {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.formaIzmeneDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.izmenaNaslovDiv {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.boxIzmena {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  border: 1px solid black;
+}
+
+.naslovDodajRibuURez {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.dodajRibuURezDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dodavanjeBox {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  border: 1px solid black;
+}
+
+.boxDodajURez {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  border: 1px solid black;
+}

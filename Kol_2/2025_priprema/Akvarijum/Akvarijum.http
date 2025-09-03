@@ -1,0 +1,56 @@
+@Akvarijum_HostAddress = https://localhost:7248
+
+GET {{Akvarijum_HostAddress}}/Akvarijum/PreuzmiRezervoare
+Accept: application/json
+
+###
+
+GET {{Akvarijum_HostAddress}}/Akvarijum/PreuzmiSveRibe
+Accept: application/json
+
+###
+
+POST {{Akvarijum_HostAddress}}/Akvarijum/DodavanjeRezervoara
+Accept: application/json
+Content-Type: application/json
+
+{
+    "sifra": "123567",
+    "zapremina": 200,
+    "temperatura": 23,
+    "poslednjeCiscenje": "2025-05-22T21:00:00.000Z",
+    "frekvencijaCiscenja": 10,
+    "kapacitet": 120
+}
+
+###
+
+POST {{Akvarijum_HostAddress}}/Akvarijum/DodavanjeRibe
+Accept: application/json
+Content-Type: application/json
+
+{
+    "vrsta": "Goldfish",
+    "masa": 0.3,
+    "starost": 1
+}
+
+###
+
+POST {{Akvarijum_HostAddress}}/Akvarijum/DodavanjeRibeURezervoar/2/4/5/2024-03-12T15:00:00.000Z/3
+Accept: application/json
+Content-Type: application/json
+
+###
+
+PUT {{Akvarijum_HostAddress}}/Akvarijum/IzmenaJedinke/5/2/0.4/2025-05-12T12:00:00.000Z
+
+###
+
+GET {{Akvarijum_HostAddress}}/Akvarijum/PronadjiRezervoareZaCiscenje
+
+###
+
+GET {{Akvarijum_HostAddress}}/Akvarijum/MasaRiba/1
+
+###
