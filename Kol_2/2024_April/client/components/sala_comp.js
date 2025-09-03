@@ -18,7 +18,7 @@ export class SalaComp {
     await this.popuniPodatke(this.projekcijaID);
     this.sedista = await zauzetaSedista(this.projekcijaID);
 
-    // pravimo petlje za redove i broj sedista i ako postoji vec sediste (dodatno u liniji iznad kao zauzeto) onda nista
+    // pravimo petlje za redove i broj sedista i ako postoji vec sediste (dodato u liniji iznad kao zauzeto) onda nista
     // a ako ne postoji pravimo novo i kazemo da je slobodno... ovo sve radimo da bi imali lepo listu svih sedista
     for (let red = 1; red <= this.brojRedova; red++) {
       for (let sediste = 1; sediste <= this.brojSedistaURedu; sediste++) {
