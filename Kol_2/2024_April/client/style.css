@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.leviDiv {
+  border: 1px solid black;
+  width: 350px;
+  min-width: 350px;
+  padding: 5px;
+  height: fit-content;
+}
+
+.naslovDiv {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.inputDiv {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 5px;
+}
+
+button {
+  width: 100%;
+}
+
+.dugmeDiv {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.ceoDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.naslovProjekcijeDiv {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.projekcijaDiv {
+  display: flex;
+}
+
+.desniDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  height: fit-content;
+}
+
+.redDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.sedisteDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 50px;
+  border: 1px solid black;
+}
