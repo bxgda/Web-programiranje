@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ceoDiv {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width: fit-content;
+}
+
+@media (max-width: 800px) {
+  .ceoDiv {
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+
+  .leviDiv,
+  .srednjiDiv,
+  .desniDiv {
+    width: fit-content;
+    width: 419px;
+  }
+}
+
+.leviDiv {
+  border: 1px solid black;
+  height: fit-content;
+  padding: 5px;
+  min-width: 419px;
+}
+
+.naslovDiv {
+  text-align: center;
+}
+
+.poljaDiv {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.dugmeDodajKnjigu {
+  grid-column: span 2;
+}
+
+.naslovDiv {
+  text-align: center;
+}
+
+.srednjiDiv {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  gap: 20px;
+  padding: 5px;
+  width: 419px;
+}
+
+.selectRezultat {
+  width: 100%;
+}
+
+.inputDiv {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.bibliotekarDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.naslovBibliotekeDiv {
+  text-align: center;
+}
+
+.dugmeAkcija {
+  width: 100%;
+}
+
+.naslovNajcitanijaDiv {
+  text-align: center;
+}
+
+.najcitanijaDiv {
+  text-align: center;
+  color: red;
+}
+
+.desniDiv {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+  width: 419px;
+}
