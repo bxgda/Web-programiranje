@@ -1,0 +1,32 @@
+@StovaristeServer_HostAddress = http://localhost:5043
+
+GET {{StovaristeServer_HostAddress}}/Stovariste/PreuzmiStovarista
+Accept: application/json
+
+###
+
+POST {{StovaristeServer_HostAddress}}/Stovariste/DodavanjeMaterijala/1/19000/130
+Content-Type: application/json
+Accept: application/json
+
+{
+    "Naziv": "Staklo",
+    "Datum": "2025-02-01T08:00:00.000Z"
+}
+
+###
+
+PUT {{StovaristeServer_HostAddress}}/Stovariste/KupovinaMaterijala/1/2/310
+Accept: application/json
+
+###
+
+GET {{StovaristeServer_HostAddress}}/Stovariste/PronadjiMaterijal/1/s
+Accept: application/json
+
+###
+
+GET {{StovaristeServer_HostAddress}}/Stovariste/MaterijalUNajvecojKolicini/1
+Accept: application/json
+
+###
